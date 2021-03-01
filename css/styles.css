@@ -1,0 +1,155 @@
+/*font-family: 'Spartan', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Spartan', san-serif;
+}
+
+main {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 48px;
+}
+
+h2 {
+  color: hsl(300, 43%, 22%);
+  font-size: 14px;
+  display: inline-block;
+  margin: 0 25px;
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  padding-left: 30px;
+  font-size: 0.8125rem;
+  line-height: 2;
+}
+
+span {
+  color: hsl(333, 80%, 67%);
+  font-size: 0.8rem;
+}
+
+p {
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.bottom-pattern {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+}
+
+.upper-text {
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  left: 10rem;
+  top: 7rem;
+}
+
+.lower-text {
+  color: hsl(303, 10%, 53%);
+  height: 67px;
+  width: 475px;
+  position: absolute;
+  left: 10rem;
+  top: 18rem;
+  padding: 10px 0
+}
+
+.rating-box {
+  height: 205px;
+  width: 600px;
+  position: absolute;
+  right: 9rem;
+  top: 7.5rem;
+}
+
+.reviews {
+  margin: 0 20px 20px 20px;
+  padding: 17px 30px;
+  background-color: hsl(300, 24%, 96%);
+  width: 400px;
+  border-radius: 8px;
+}
+
+.reportguru {
+  margin: 20px 20px;
+  padding: 17px 30px;
+  background-color: hsl(300, 24%, 96%);
+  width: 400px;
+  position: relative;
+  left: 3rem;
+  border-radius: 8px;
+}
+
+.besttech {
+  margin: 20px 20px 0 20px;
+  padding: 17px 30px;
+  background-color: hsl(300, 24%, 96%);
+  width: 400px;
+  position: relative;
+  left: 6rem;
+  border-radius: 8px;
+}
+
+.customers-review {
+  display: flex;
+  width: 78rem;
+  height: 280px;
+  position: absolute;
+  left: 10rem;
+  bottom: 4rem;
+}
+
+.c1, .c2, .c3 {
+  background-color: hsl(300, 43%, 22%);
+  width: 325px;
+  height: 200px;
+  padding: 20px;
+  margin: 0 60px 0 0;
+  border-radius: 8px;
+  position: relative;
+}
+
+.pp-1, .pp-2, .pp-3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 150px;
+  float: left;
+  margin: 0 20px;
+}
+
+.colton-profile, .irene-profile, .anne-profile {
+  height: 60px;
+  position: relative;
+  top: 25px;
+}
+
+.colton-review, .irene-review, .anne-review {
+  padding: 15px;
+  position: relative;
+  top: 25px;
+  color: hsl(0, 0%, 100%);
+  font-size: 0.9em;
+}
+
+.c2 {
+  top: 20px;
+}
+
+.c3 {
+  top: 40px
+}
